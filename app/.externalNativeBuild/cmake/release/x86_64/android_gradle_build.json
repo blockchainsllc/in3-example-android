@@ -1,0 +1,845 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/orlyn/Documents/slockit/working/incubed/app/CMakeLists.txt",
+		"/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/CMakeLists.txt",
+		"/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_api/CMakeLists.txt",
+		"/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_basic/CMakeLists.txt",
+		"/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/CMakeLists.txt",
+		"/Users/orlyn/Documents/slockit/working/incubed/app/src/main/libin3/CMakeLists.txt",
+		"/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"libraries" : 
+	{
+		"core-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "core",
+			"buildCommand" : "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64 --target core",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/client/context.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/client/client.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/client/cache.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/client/nodelist.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/client/verifier.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/client/send.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/client/client_init.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/util/debug.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/util/bytes.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/util/utils.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/util/scache.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/util/data.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/util/log.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/util/mem.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/util/stringbuilder.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/util/bitset.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/ecdsa.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/address.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/bignum.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/rand.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/hmac.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/secp256k1.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/memzero.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/sha3.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/ripemd160.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/base58.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/hasher.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/sha2.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/blake256.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/blake2b.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/groestl.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/crypto/pbkdf2.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64/src/main/core/outputs/libcore.a",
+			"toolchain" : "11973359222462207552"
+		},
+		"eth_api-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "eth_api",
+			"buildCommand" : "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64 --target eth_api",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_api -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_api/eth_api.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_api -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_api/abi.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_api -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_api/aes/aes_modes.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_api -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_api/aes/aescrypt.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_api -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_api/aes/aeskey.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_api -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_api/aes/aestab.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_api -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_api/key.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64/src/main/eth_api/outputs/libeth_api.a",
+			"toolchain" : "11973359222462207552"
+		},
+		"eth_basic-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "eth_basic",
+			"buildCommand" : "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64 --target eth_basic",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_basic/eth_basic.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_basic/eth_getTransaction.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_basic/eth_getBlock.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_basic/eth_account.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_basic/eth_getLog.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_basic/trie.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_basic/signer.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_basic/filter.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64/src/main/eth_basic/outputs/libeth_basic.a",
+			"toolchain" : "11973359222462207552"
+		},
+		"eth_full-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "eth_full",
+			"buildCommand" : "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64 --target eth_full",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/eth_full.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/evm.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/opcodes.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/big.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/call.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/code.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/env.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/mem.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/precompiled.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_fast_mp_montgomery_reduce.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_fast_s_mp_mul_digs.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_fast_s_mp_mul_high_digs.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_fast_s_mp_sqr.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_2expt.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_abs.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_add.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_balance_mul.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_clamp.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_clear.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_clear_multi.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_cmp.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_cmp_d.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_cmp_mag.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_copy.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_count_bits.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_div.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_div_2.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_div_2d.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_exch.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_export.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_exptmod.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_grow.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_import.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_init.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_init_copy.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_init_multi.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_init_size.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_invmod.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_invmod_slow.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_lshd.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_mod.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_mod_2d.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_montgomery_calc_normalization.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_montgomery_setup.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_mul.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_mul_2.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_mul_2d.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_mul_d.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_mulmod.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_reduce.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_reduce_2k_l.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_reduce_2k_setup_l.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_reduce_is_2k_l.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_reduce_setup.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_rshd.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_set.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_sqr.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_sub.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_mp_zero.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_s_mp_add.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_s_mp_exptmod.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_s_mp_mul_digs.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bn_s_mp_sub.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_full -I../../../../src/main/core -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/tommath/bncore.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64/src/main/eth_full/outputs/libeth_full.a",
+			"toolchain" : "11973359222462207552"
+		},
+		"eth_nano-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "eth_nano",
+			"buildCommand" : "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64 --target eth_nano",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/eth_nano.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/rlp.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/merkle.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/serialize.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/blockheader.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/signature.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/txreceipt.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/registry.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -I../../../../src/main/eth_nano -I../../../../src/main/core  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/vhist.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64/src/main/eth_nano/outputs/libeth_nano.a",
+			"toolchain" : "11973359222462207552"
+		},
+		"in3-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "in3-lib",
+			"buildCommand" : "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64 --target in3-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -Din3_lib_EXPORTS -I../../../../src/main/core -I../../../../src/main/eth_api -I../../../../src/main/eth_nano -I../../../../src/main/eth_basic -I../../../../src/main/eth_full  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/jni/native-in3-lib.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/orlyn/Documents/slockit/working/incubed/app/build/intermediates/cmake/release/obj/x86_64/libin3-lib.so",
+			"toolchain" : "11973359222462207552"
+		},
+		"libin3-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libin3",
+			"buildCommand" : "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64 --target libin3",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DIN3_MATH_LITE -Dlibin3_EXPORTS -I../../../../src/main/core -I../../../../src/main/eth_full -I../../../../src/main/eth_basic -I../../../../src/main/eth_nano  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/libin3/in3_IN3.c",
+					"workingDirectory" : "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/orlyn/Documents/slockit/working/incubed/app/build/intermediates/cmake/release/obj/x86_64/libin3.so",
+			"toolchain" : "11973359222462207552"
+		}
+	},
+	"toolchains" : 
+	{
+		"11973359222462207552" : 
+		{
+			"cCompilerExecutable" : "/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

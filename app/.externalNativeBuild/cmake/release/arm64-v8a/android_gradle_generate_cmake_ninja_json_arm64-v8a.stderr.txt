@@ -1,0 +1,31 @@
+CMake Error at CMakeLists.txt:114 (target_link_libraries):
+  Attempt to add link library "eth_api" to target "core" which is not built
+  in this directory.
+
+
+CMake Error at CMakeLists.txt:114 (target_link_libraries):
+  Attempt to add link library "eth_basic" to target "core" which is not built
+  in this directory.
+
+
+CMake Error at CMakeLists.txt:114 (target_link_libraries):
+  Attempt to add link library "eth_nano" to target "core" which is not built
+  in this directory.
+
+
+CMake Error at CMakeLists.txt:114 (target_link_libraries):
+  Attempt to add link library "libin3" to target "core" which is not built in
+  this directory.
+
+
+CMake Error at CMakeLists.txt:114 (target_link_libraries):
+  Attempt to add link library "eth_full" to target "core" which is not built
+  in this directory.
+
+
+CMake Error at CMakeLists.txt:114 (target_link_libraries):
+  Attempt to add link library
+  "/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so"
+  to target "core" which is not built in this directory.
+
+

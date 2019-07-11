@@ -1,0 +1,6 @@
+[1/2] Building C object CMakeFiles/in3-lib.dir/src/main/jni/native-in3-lib.c.o
+[2/2] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86/libin3-lib.so
+FAILED: : && /Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang  --target=i686-none-linux-android16 --gcc-toolchain=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/orlyn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -shared -Wl,-soname,libin3-lib.so -o ../../../../build/intermediates/cmake/debug/obj/x86/libin3-lib.so CMakeFiles/in3-lib.dir/src/main/jni/native-in3-lib.c.o  -latomic -lm && :
+/Users/orlyn/Documents/slockit/working/incubed/app/src/main/jni/native-in3-lib.c:15: error: undefined reference to 'size_of_bytes'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.

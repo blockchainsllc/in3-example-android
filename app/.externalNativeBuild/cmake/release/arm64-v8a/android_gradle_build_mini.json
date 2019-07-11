@@ -1,0 +1,58 @@
+{
+  "buildFiles": [
+    "/Users/orlyn/Documents/slockit/working/incubed/app/CMakeLists.txt",
+    "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/core/CMakeLists.txt",
+    "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_api/CMakeLists.txt",
+    "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_basic/CMakeLists.txt",
+    "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_nano/CMakeLists.txt",
+    "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/libin3/CMakeLists.txt",
+    "/Users/orlyn/Documents/slockit/working/incubed/app/src/main/eth_full/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "eth_basic-Release-arm64-v8a": {
+      "artifactName": "eth_basic",
+      "buildCommand": "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a --target eth_basic",
+      "abi": "arm64-v8a",
+      "output": "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a/src/main/eth_basic/outputs/libeth_basic.a"
+    },
+    "core-Release-arm64-v8a": {
+      "artifactName": "core",
+      "buildCommand": "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a --target core",
+      "abi": "arm64-v8a",
+      "output": "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a/src/main/core/outputs/libcore.a"
+    },
+    "eth_nano-Release-arm64-v8a": {
+      "artifactName": "eth_nano",
+      "buildCommand": "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a --target eth_nano",
+      "abi": "arm64-v8a",
+      "output": "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a/src/main/eth_nano/outputs/libeth_nano.a"
+    },
+    "eth_full-Release-arm64-v8a": {
+      "artifactName": "eth_full",
+      "buildCommand": "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a --target eth_full",
+      "abi": "arm64-v8a",
+      "output": "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a/src/main/eth_full/outputs/libeth_full.a"
+    },
+    "eth_api-Release-arm64-v8a": {
+      "artifactName": "eth_api",
+      "buildCommand": "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a --target eth_api",
+      "abi": "arm64-v8a",
+      "output": "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a/src/main/eth_api/outputs/libeth_api.a"
+    },
+    "in3-lib-Release-arm64-v8a": {
+      "artifactName": "in3-lib",
+      "buildCommand": "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a --target in3-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/orlyn/Documents/slockit/working/incubed/app/build/intermediates/cmake/release/obj/arm64-v8a/libin3-lib.so"
+    },
+    "libin3-Release-arm64-v8a": {
+      "artifactName": "libin3",
+      "buildCommand": "/Users/orlyn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/arm64-v8a --target libin3",
+      "abi": "arm64-v8a",
+      "output": "/Users/orlyn/Documents/slockit/working/incubed/app/build/intermediates/cmake/release/obj/arm64-v8a/libin3.so"
+    }
+  }
+}

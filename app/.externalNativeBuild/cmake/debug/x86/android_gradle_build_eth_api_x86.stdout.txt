@@ -1,0 +1,8 @@
+[1/8] Building C object src/main/eth_api/outputs/CMakeFiles/eth_api.dir/eth_api.c.o
+[2/8] Building C object src/main/eth_api/outputs/CMakeFiles/eth_api.dir/abi.c.o
+[3/8] Building C object src/main/eth_api/outputs/CMakeFiles/eth_api.dir/aes/aes_modes.c.o
+[4/8] Building C object src/main/eth_api/outputs/CMakeFiles/eth_api.dir/aes/aescrypt.c.o
+[5/8] Building C object src/main/eth_api/outputs/CMakeFiles/eth_api.dir/aes/aeskey.c.o
+[6/8] Building C object src/main/eth_api/outputs/CMakeFiles/eth_api.dir/aes/aestab.c.o
+[7/8] Building C object src/main/eth_api/outputs/CMakeFiles/eth_api.dir/key.c.o
+[8/8] Linking C static library src/main/eth_api/outputs/libeth_api.a

@@ -1,0 +1,10 @@
+[1/10] Building C object src/main/eth_nano/outputs/CMakeFiles/eth_nano.dir/eth_nano.c.o
+[2/10] Building C object src/main/eth_nano/outputs/CMakeFiles/eth_nano.dir/rlp.c.o
+[3/10] Building C object src/main/eth_nano/outputs/CMakeFiles/eth_nano.dir/merkle.c.o
+[4/10] Building C object src/main/eth_nano/outputs/CMakeFiles/eth_nano.dir/serialize.c.o
+[5/10] Building C object src/main/eth_nano/outputs/CMakeFiles/eth_nano.dir/blockheader.c.o
+[6/10] Building C object src/main/eth_nano/outputs/CMakeFiles/eth_nano.dir/signature.c.o
+[7/10] Building C object src/main/eth_nano/outputs/CMakeFiles/eth_nano.dir/txreceipt.c.o
+[8/10] Building C object src/main/eth_nano/outputs/CMakeFiles/eth_nano.dir/registry.c.o
+[9/10] Building C object src/main/eth_nano/outputs/CMakeFiles/eth_nano.dir/vhist.c.o
+[10/10] Linking C static library src/main/eth_nano/outputs/libeth_nano.a

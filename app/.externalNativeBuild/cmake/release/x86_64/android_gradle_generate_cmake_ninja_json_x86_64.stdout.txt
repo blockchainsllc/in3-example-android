@@ -1,0 +1,3 @@
+-- Disable math optimizations (optimised for executable size)
+-- Configuring incomplete, errors occurred!
+See also "/Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeOutput.log".
