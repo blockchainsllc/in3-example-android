@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Incubed</string>
+    <string name="command"><![CDATA[{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["0x1b4", true],"id":1}]]></string>
 </resources>

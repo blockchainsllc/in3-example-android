@@ -16,14 +16,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        sbtn.setOnClickListener {
+        startButton.setOnClickListener {
             GlobalScope.launch(Dispatchers.Main) {
-                val res = withContext(Dispatchers.Default) {
-                    in3.send("{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x1b4\", true],\"id\":1}")
+                outText.text =  withContext(Dispatchers.Default) {
+                    in3.send(commandEdit.text.toString())
                 }
-                helloCom.text = res
             }
-
         }
     }
 }
