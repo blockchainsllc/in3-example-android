@@ -26,11 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 getBlockInfo.execute();
             }
         });
-
-
-
     }
-
 
     private static class GetBlockInfo extends AsyncTask<Void, Void, String>{
 
