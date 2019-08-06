@@ -1,9 +1,0 @@
-[1/9] Building C object src/main/eth_basic/outputs/CMakeFiles/eth_basic.dir/eth_basic.c.o
-[2/9] Building C object src/main/eth_basic/outputs/CMakeFiles/eth_basic.dir/eth_getTransaction.c.o
-[3/9] Building C object src/main/eth_basic/outputs/CMakeFiles/eth_basic.dir/eth_getBlock.c.o
-[4/9] Building C object src/main/eth_basic/outputs/CMakeFiles/eth_basic.dir/eth_account.c.o
-[5/9] Building C object src/main/eth_basic/outputs/CMakeFiles/eth_basic.dir/eth_getLog.c.o
-[6/9] Building C object src/main/eth_basic/outputs/CMakeFiles/eth_basic.dir/trie.c.o
-[7/9] Building C object src/main/eth_basic/outputs/CMakeFiles/eth_basic.dir/signer.c.o
-[8/9] Building C object src/main/eth_basic/outputs/CMakeFiles/eth_basic.dir/filter.c.o
-[9/9] Linking C static library src/main/eth_basic/outputs/libeth_basic.a

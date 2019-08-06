@@ -1,4 +1,0 @@
--- Disable math optimizations (optimised for executable size)
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/orlyn/Documents/slockit/working/incubed/app/.externalNativeBuild/cmake/debug/x86_64
