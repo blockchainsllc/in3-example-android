@@ -1,6 +1,5 @@
-
-
-/** @file 
+// @PUBLIC_HEADER
+/** @file
  * utility functions.
  * */
 
@@ -8,7 +7,6 @@
 #define UTILS_H
 
 #include "bytes.h"
-#include "mem.h"
 #include <stdint.h>
 
 #define SWAP(a, b) \
@@ -22,6 +20,7 @@
 #define min(a, b) ((a) < (b) ? (a) : (b))
 #define max(a, b) ((a) > (b) ? (a) : (b))
 #endif
+
 typedef uint32_t      pb_size_t;
 typedef uint_least8_t pb_byte_t;
 

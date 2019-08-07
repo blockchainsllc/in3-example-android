@@ -1,4 +1,5 @@
-/** @file 
+// @PUBLIC_HEADER
+/** @file
  * incubed main client file.
  * 
  * This includes the definition of the client and used enum values.
@@ -12,9 +13,10 @@
 #include "../util/data.h"
 #include "../util/error.h"
 #include "../util/stringbuilder.h"
-#include "../util/utils.h"
 #include <stdbool.h>
 #include <stdint.h>
+
+#define IN3_PROTO_VER 0x2
 
 /** the type of the chain. 
  * 
@@ -111,6 +113,8 @@ typedef struct in3_chain {
   in3_node_weight_t* weights;        /**< stats and weights recorded for each node */
   bytes_t**          initAddresses;  /**< array of addresses of nodes that should always part of the nodeList */
   bytes_t*           contract;       /**< the address of the registry contract */
+  bytes32_t          registry_id;    /**< the identifier of the registry */
+  uint8_t            version;        /**< version of the chain */
   json_ctx_t*        spec;           /**< optional chain specification, defining the transaitions and forks*/
 } in3_chain_t;
 
@@ -143,7 +147,6 @@ typedef struct in3_storage_handler {
 #define IN3_SIGN_ERR_ACCOUNT_NOT_FOUND -2 /**< return value used by the signer if the requested account was not found. */
 #define IN3_SIGN_ERR_INVALID_MESSAGE -3   /**< return value used by the signer if the message was invalid. */
 #define IN3_SIGN_ERR_GENERAL_ERROR -4     /**< return value used by the signer for unspecified errors. */
-#define IN3_DEBUG 65536                   /**< flag used in the EVM (or the `evm_flags`) to turn on debug output. */
 
 /** type of the requested signature */
 typedef enum {
@@ -283,9 +286,6 @@ typedef struct in3_t_ {
   /** number of configured chains */
   uint16_t chainsCount;
 
-  /** flags for the evm (EIPs) */
-  uint32_t evm_flags;
-
   /** filter handler */
   in3_filter_handler_t* filters;
 
@@ -334,7 +334,43 @@ in3_ret_t in3_client_rpc(
     char** result, /**< [in] pointer to string which will be set if the request was successfull. This will hold the result as json-rpc-string. (make sure you free this after use!) */
     char** error /**< [in] pointer to a string containg the error-message. (make sure you free it after use!) */);
 
+/** registers a new chain or replaces a existing (but keeps the nodelist)*/
+in3_ret_t in3_client_register_chain(
+    in3_t*           client,      /**< [in] the pointer to the incubed client config. */
+    uint64_t         chain_id,    /**< [in] the chain id. */
+    in3_chain_type_t type,        /**< [in] the verification type of the chain. */
+    address_t        contract,    /**< [in] contract of the registry. */
+    bytes32_t        registry_id, /**< [in] the identifier of the registry. */
+    uint8_t          version,     /**< [in] the chain version. */
+    json_ctx_t*      spec         /**< [in] chainspec or NULL. */
+);
+
+/** adds a node to a chain ore updates a existing node */
+in3_ret_t in3_client_add_node(
+    in3_t*    client,   /**< [in] the pointer to the incubed client config. */
+    uint64_t  chain_id, /**< [in] the chain id. */
+    char*     url,      /**< [in] url of the nodes. */
+    uint64_t  props,    /**< [in]properties of the node. */
+    address_t address); /**< [in] public address of the signer. */
+
+/** removes a node from a nodelist */
+in3_ret_t in3_client_remove_node(
+    in3_t*    client,   /**< [in] the pointer to the incubed client config. */
+    uint64_t  chain_id, /**< [in] the chain id. */
+    address_t address); /**< [in] public address of the signer. */
+
+/** removes all nodes from the nodelist */
+in3_ret_t in3_client_clear_nodes(
+    in3_t*   client,    /**< [in] the pointer to the incubed client config. */
+    uint64_t chain_id); /**< [in] the chain id. */
+
 /** frees the references of the client */
 void in3_free(in3_t* a /**< [in] the pointer to the incubed client config to free. */);
+
+/**
+ * inits the cache.
+ *
+ */
+in3_ret_t in3_cache_init(in3_t* c /**< the incubed client */);
 
 #endif

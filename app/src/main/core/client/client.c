@@ -1,5 +1,6 @@
 #include "client.h"
 #include "../util/data.h"
+#include "../util/mem.h"
 #include "context.h"
 #include "keys.h"
 #include "send.h"
@@ -7,8 +8,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <jni.h>
-#include "../util/utils.h"
 
 in3_ctx_t* in3_client_rpc_ctx(in3_t* c, char* method, char* params) {
   // generate the rpc-request
@@ -112,15 +111,3 @@ in3_ret_t in3_client_rpc(in3_t* c, char* method, char* params, char** result, ch
   // if we have an error, we always return IN3_EUNKNOWN
   return *error ? IN3_EUNKNOWN : res;
 }
-
-/*
-JNIEXPORT jstring JNICALL
-Java_com_example_incubedclienttest_MainActivity_sizeOfBytes(JNIEnv* env, jobject s){
-  int sb = size_of_bytes(3);
-  char sbTx[20];
-  sprintf(sbTx, "%d", sb);
-
-  char hello[100] = "xhello size of bytes ";
-  strcat(hello, sbTx);
-  return (*env)->NewStringUTF(env, hello);
-}*/
