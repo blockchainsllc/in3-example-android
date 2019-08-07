@@ -1,0 +1,4 @@
+.idea
+.gradle
+app/.externalNativeBuild
+app/in3-core
