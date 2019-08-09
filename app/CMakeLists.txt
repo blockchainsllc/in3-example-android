@@ -14,7 +14,7 @@ ELSE()
 ENDIF(FAST_MATH)
 
 
-foreach(module core verifier/eth1/nano verifier/eth1/basic verifier/eth1/full bindings/java third-party/crypto third-party/tommath )
+foreach(module core verifier/eth1/nano verifier/eth1/evm verifier/eth1/basic verifier/eth1/full bindings/java third-party/crypto third-party/tommath api/eth1)
         file(MAKE_DIRECTORY in3-core/src/${module}/outputs)
         add_subdirectory(
                 in3-core/src/${module}
