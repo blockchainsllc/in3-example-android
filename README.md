@@ -20,12 +20,12 @@
     endforeach()
     ```
 
-2. clone [in3-core](https://git.slock.it/in3/c/in3-core.git) into the `app`-folder or use this script to clone and update incubed:
+2. clone [in3-core](https://github.com/slockit/in3-c.git) into the `app`-folder or use this script to clone and update incubed:
 
     ```sh
     #!/usr/bin/env sh
 
-    IN3_SRC=git@github.com:SlockItEarlyAccess/in3-core.git
+    IN3_SRC=https://github.com/slockit/in3-c.git
     cd app
 
     if [ -d in3-core ]; then
