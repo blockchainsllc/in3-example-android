@@ -37,8 +37,8 @@
 IN3_SRC=https://github.com/slockit/in3-c.git
 cd app
 
-if [ -d in3-core ]; then
-  cd in3-core
+if [ -d in3-c ]; then
+  cd in3-c
   git pull
   cd ..
 else
@@ -47,6 +47,6 @@ fi
 
 
 # copy client to java path
-cp -r in3-core/src/bindings/java/in3 src/main/java/
+cp -r in3-c/src/bindings/java/in3 src/main/java/
 # but not the native libs
 rm -rf src/main/java/in3/native
