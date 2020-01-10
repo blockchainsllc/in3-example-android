@@ -13,14 +13,14 @@
 
     # loop through the required module and cretae the build-folders
     foreach(module core verifier/eth1/nano verifier/eth1/evm verifier/eth1/basic verifier/eth1/full bindings/java third-party/crypto third-party/tommath api/eth1)
-            file(MAKE_DIRECTORY in3-core/src/${module}/outputs)
+            file(MAKE_DIRECTORY in3-c/src/${module}/outputs)
             add_subdirectory(
-                    in3-core/src/${module}
-                    in3-core/src/${module}/outputs)
+                    in3-c/src/${module}
+                    in3-c/src/${module}/outputs)
     endforeach()
     ```
 
-2. clone [in3-core](https://github.com/slockit/in3-c.git) into the `app`-folder or use this script to clone and update incubed:
+2. clone [in3-c](https://github.com/slockit/in3-c.git) into the `app`-folder or use this script to clone and update incubed:
 
     ```sh
     #!/usr/bin/env sh
@@ -28,8 +28,8 @@
     IN3_SRC=https://github.com/slockit/in3-c.git
     cd app
 
-    if [ -d in3-core ]; then
-        cd in3-core
+    if [ -d in3-c ]; then
+        cd in3-c
         git pull
         cd ..
     else
@@ -38,7 +38,7 @@
 
 
     # copy client to java path
-    cp -r in3-core/src/bindings/java/in3 src/main/java/
+    cp -r in3-c/src/bindings/java/in3 src/main/java/
     # but not the native libs
     rm -rf src/main/java/in3/native
     ```
