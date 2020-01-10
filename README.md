@@ -9,8 +9,15 @@
     cmake_minimum_required(VERSION 3.4.1)
 
     # turn off FAST_MATH in the evm.
-    ADD_DEFINITIONS(-DIN3_MATH_LITE)
-
+    ADD_DEFINITIONS(
+    -DIN3_MATH_LITE
+    -DUSE_PRECOMPUTED_CP=1
+    -DERR_MSG
+    -DETH_FULL
+    -DETH_BASIC
+    -DETH_NANO
+    -DIN3_EXPORT_TEST=static
+    )
     # loop through the required module and cretae the build-folders
     foreach(module core verifier/eth1/nano verifier/eth1/evm verifier/eth1/basic verifier/eth1/full bindings/java third-party/crypto third-party/tommath api/eth1)
             file(MAKE_DIRECTORY in3-c/src/${module}/outputs)
