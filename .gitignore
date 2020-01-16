@@ -3,3 +3,5 @@ app/src/main/java/in3
 .gradle
 app/.externalNativeBuild
 app/in3-core
+local.properties
+*.iml
