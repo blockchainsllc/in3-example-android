@@ -34,10 +34,10 @@ if(IN3API)
 endif()
 
 
-foreach(module core verifier/eth1/nano verifier/eth1/evm verifier/eth1/basic verifier/eth1/full bindings/java third-party/crypto third-party/tommath api/eth1)
-        file(MAKE_DIRECTORY in3-c/src/${module}/outputs)
+foreach(module core verifier/eth1/nano verifier/eth1/evm verifier/eth1/basic verifier/eth1/full ../../java/src/bindings/java third-party/crypto third-party/tommath api/eth1)
+        file(MAKE_DIRECTORY in3-c/c/src/${module}/outputs)
         add_subdirectory(
-                in3-c/src/${module}
-                in3-c/src/${module}/outputs)
+                in3-c/c/src/${module}
+                in3-c/c/src/${module}/outputs)
 endforeach()
 
