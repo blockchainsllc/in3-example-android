@@ -19,11 +19,11 @@
     -DIN3_EXPORT_TEST=static
     )
     # loop through the required module and cretae the build-folders
-    foreach(module core verifier/eth1/nano verifier/eth1/evm verifier/eth1/basic verifier/eth1/full bindings/java third-party/crypto third-party/tommath api/eth1)
-            file(MAKE_DIRECTORY in3-c/src/${module}/outputs)
+    foreach(module core verifier/eth1/nano verifier/eth1/evm verifier/eth1/basic verifier/eth1/full ../../java/src third-party/crypto third-party/tommath api)
+            file(MAKE_DIRECTORY in3-c/c/src/${module}/outputs)
             add_subdirectory(
-                    in3-c/src/${module}
-                    in3-c/src/${module}/outputs)
+                    in3-c/c/src/${module}
+                    in3-c/c/src/${module}/outputs)
     endforeach()
     ```
 
@@ -45,9 +45,9 @@
 
 
     # copy client to java path
-    cp -r in3-c/src/bindings/java/in3 src/main/java/
-    # but not the native libs
-    rm -rf src/main/java/in3/native
+    cp -r in3-c/java/src/in3 src/main/java/
+    mkdir -p c
+    cp in3-c/c/compiler.cmake c/
     ```
 
 3. Use methods available in app/src/main/java/in3/IN3.java from android activity to access IN3 functions.
