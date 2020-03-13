@@ -37,6 +37,7 @@
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import in3.IN3
+import in3.Chain
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -45,7 +46,7 @@ import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
 
-    val in3 by lazy { IN3() }
+    val in3 by lazy { IN3.forChain(Chain.MAINNET) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
