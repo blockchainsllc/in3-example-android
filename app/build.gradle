@@ -11,6 +11,11 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                arguments "-DTRANSPORTS=OFF", "-DUSE_CURL=OFF", "-DCMD=OFF", "-DJAVA=ON", "-DJAVA_MULTI_LIBS=ON", "-DNODESELECT_DEF=ON"
+            }
+        }
     }
     buildTypes {
         release {
@@ -20,7 +25,7 @@ android {
     }
     externalNativeBuild {
         cmake {
-            path file('CMakeLists.txt')
+            path file('in3-c/CMakeLists.txt')
         }
     }
 }
