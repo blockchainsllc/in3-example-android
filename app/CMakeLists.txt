@@ -3,7 +3,7 @@
 # your build.
 
 cmake_minimum_required(VERSION 3.4.1)
-include(in3-c/c/macro.cmake)
+include(c/macro.cmake)
 
 OPTION(FAST_MATH "Math optimizations" OFF)
 OPTION(ETH_NANO "build minimal eth verification.(eth_getTransactionReceipt)" ON)
@@ -36,7 +36,7 @@ endif()
 
 
 
-foreach(module core signer/pk-signer verifier/eth1/nano verifier/eth1/evm verifier/eth1/basic verifier/eth1/full ../../java/src third-party/crypto third-party/tommath api)
+foreach(module core signer/pk-signer verifier/eth1/nano verifier/eth1/evm verifier/eth1/basic nodeselect verifier/eth1/full ../../java/src third-party/crypto third-party/tommath api)
         file(MAKE_DIRECTORY in3-c/c/src/${module}/outputs)
         add_subdirectory(
                 in3-c/c/src/${module}
