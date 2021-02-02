@@ -3,6 +3,7 @@ app/src/main/java/in3
 .gradle
 app/.externalNativeBuild
 app/in3-core
+app/in3
 local.properties
 *.iml
 gradle-6.8.1-bin.zip

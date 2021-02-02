@@ -34,11 +34,11 @@
 # with this program. If not, see <https://www.gnu.org/licenses/>.
 ###############################################################################
 
-IN3_SRC=https://github.com/slockit/in3-c.git
+IN3_SRC=https://github.com/blockchainsllc/in3.git
 cd app
 
-if [ -d in3-c ]; then
-  cd in3-c
+if [ -d in3 ]; then
+  cd in3
   git pull
   cd ..
 else
@@ -47,5 +47,4 @@ fi
 
 
 # copy client to java path
-cp -r in3-c/java/src/in3 src/main/java/
-cp in3-c/c/compiler.cmake c/
+cp -r in3/java/src/in3 src/main/java/
