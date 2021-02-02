@@ -35,7 +35,6 @@
 ###############################################################################
 
 IN3_SRC=https://github.com/blockchainsllc/in3.git
-cd app
 
 if [ -d in3 ]; then
   cd in3
@@ -44,7 +43,3 @@ if [ -d in3 ]; then
 else
   git clone $IN3_SRC
 fi
-
-
-# copy client to java path
-cp -r in3/java/src/in3 src/main/java/

@@ -26,10 +26,14 @@ android {
     }
     externalNativeBuild {
         cmake {
-            path file('in3/CMakeLists.txt')
+            path file('../in3/CMakeLists.txt')
         }
     }
+    sourceSets {
+       main.java.srcDirs += ['../in3/java/src']
+    }
 }
+
 
 dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.2.2"
