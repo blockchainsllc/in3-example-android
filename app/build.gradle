@@ -3,7 +3,6 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 
 android {
-    ndkVersion "20.0.5594570"
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.incubed"
