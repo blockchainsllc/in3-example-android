@@ -19,7 +19,7 @@
 
 
     # copy client to java path
-    cp -r in3-c/java/src/in3 src/main/java/
+    cp -r in3/java/src/in3 src/main/java/
     ```
 
 2. add the native-build section in your `build.gradle` in the app-folder:
