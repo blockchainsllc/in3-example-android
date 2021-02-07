@@ -14,7 +14,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
-                arguments "-DTRANSPORTS=OFF", "-DUSE_CURL=OFF", "-DCMD=OFF", "-DJAVA=ON",  "-DIN3_LIB=OFF",  "-DRECORDER=OFF"
+                arguments "-DTRANSPORTS=OFF", "-DTHREADSAFE=OFF", "-DUSE_CURL=OFF", "-DCMD=OFF", "-DJAVA=ON",  "-DIN3_LIB=OFF",  "-DRECORDER=OFF"
             }
         }
     }
